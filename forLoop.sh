@@ -13,4 +13,12 @@ function forLoop() {
   done
 }
 
+function anotherForLoop() {
+  for i in {1..10}
+  do
+    echo "$i x 2 = $((i * 2))"
+  done
+}
+
 forLoop "$1"
+anotherForLoop
