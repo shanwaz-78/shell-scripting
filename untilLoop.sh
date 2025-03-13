@@ -7,3 +7,4 @@ do
   echo "echo $((number * 2))"
   ((number++))
 done
+
